@@ -4,6 +4,8 @@ server:
     include-message: always
 
 spring:
+  application:
+    name: spring
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
